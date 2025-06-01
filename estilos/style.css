@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* Paleta de cores
+Principal: #3FC24E
+Complementares:
+Escura: #417047
+Clara: #13ED2C
+
+Preto: #2D332E
+*/
+/*mobile-first*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../imagens/pulverizacao-agricola-com-drone-revolucao-no-campo.jpg);
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: left;
+}
+header{
+    background-color: #417047;;
+    padding: 20px;
+    text-align: center;
+}
+header > h1 {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header > h2 {
+    color: #3FC24E;
+    font-size: 1.5em;
+    margin-top: 15px;
+    
+}
+header nav > ul {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+header nav > ul > li {
+    list-style: none;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+header nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header nav > ul > li > a:hover {
+    color: #13ED2C;
+    margin: 7px;
+    transition-duration: 0.5s;
+    width: 100%;
+}
+main{
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+    margin-bottom: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+main > article > h1 {
+    color: #3FC24E;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+main > article > h2 {
+    color: #417047;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+main > article > h3{
+    color: #2D332E;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+main > article > h4 {
+    color: #2D332E;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+main > article > h5{
+    color: #2D332E;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+main > article > h6{
+    color: #2D332E;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+main > article > p {
+    line-height: 1.6;
+    font-size: 1em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #2D332E;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-attachment: fixed;
+
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer > p > a:hover {
+    color: #13ED2C;
+    margin: 7px;
+    transition-duration: 0.5s;
+    width: 100%;
+}

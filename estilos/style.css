@@ -36,22 +36,28 @@ header > h2 {
     margin-top: 15px;
     
 }
-header nav > ul {
+span#menu {
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+header nav > menu > ul {
     display: inline-block;
     color: white;
 }
-header nav > ul > li {
+header nav > menu > ul > li {
     list-style: none;
     display: inline-block;
     margin-right: 15px;
     margin-top: 15px;
 }
-header nav > ul > li > a {
+header nav > menu > ul > li > a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-header nav > ul > li > a:hover {
+header nav > menu > ul > li > a:hover {
     color: #13ED2C;
     margin: 7px;
     transition-duration: 0.5s;

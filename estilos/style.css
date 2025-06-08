@@ -71,8 +71,9 @@ header nav > menu > ul > li > a:hover {
 
 main{
     background-color: white;
-    margin: 30px auto;
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
     padding: 50px;
     margin-bottom: 30px;
     border-bottom-right-radius: 10px;
@@ -87,10 +88,7 @@ main > article {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-flow: row wrap;
-}
-main > article > h1#Desenvolvimento{
-    font-size: 1.8em;
+    flex-flow: column wrap;
 }
 main > article > h1 {
     color: #3FC24E;
@@ -98,6 +96,7 @@ main > article > h1 {
     font-size: 2em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
 }
 main > article > h1:hover {

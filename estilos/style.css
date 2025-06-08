@@ -45,12 +45,13 @@ span#menu {
 }
 
 header nav > menu > ul {
-    display: inline-block;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     color: white;
 }
 header nav > menu > ul > li {
     list-style: none;
-    display: inline-block;
     margin-right: 15px;
     margin-top: 15px;
 }
@@ -61,7 +62,8 @@ header nav > menu > ul > li > a {
 }
 header nav > menu > ul > li > a:hover {
     color: #13ED2C;
-    margin: 7px;
+    margin: 10px;
+    padding: 10px;
     transition-duration: 0.5s;
     width: 100%;
 }
@@ -74,6 +76,14 @@ main{
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+main > article {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 main > article > h1#Desenvolvimento{
     font-size: 1.8em;
 }
@@ -82,6 +92,8 @@ main > article > h1 {
     margin-bottom: 20px;
     font-size: 2em;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
 }
 main > article > h1:hover {
     color: #0bf426;

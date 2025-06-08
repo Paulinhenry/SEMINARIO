@@ -18,7 +18,8 @@ body{
     background-image: url(../imagens/pulverizacao-agricola-com-drone-revolucao-no-campo.jpg);
     background-size: cover;
     background-attachment: fixed; 
-    background-position: left;
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 header{
     background-color: #417047;;
@@ -83,6 +84,8 @@ main > article {
     background-color: #F0F0F0;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-flow: row wrap;
 }
 main > article > h1#Desenvolvimento{
     font-size: 1.8em;
